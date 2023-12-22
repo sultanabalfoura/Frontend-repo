@@ -1,0 +1,76 @@
+/* .logo{
+    width:40%;
+    height: 100%;
+} */
+
+.logo p{
+    /* display: inline; */
+    justify-content: space-around;
+    padding-bottom: 30%;
+    color: #824623;
+    font-size: 1.4rem;
+    font-family: "cursive";
+}
+.logo img{
+
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+}
+.sec-2{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ .profile{
+    padding-top:6%;
+    padding-left: 1%;
+    height: 130%;
+    width: 40%;
+    background-color: #B2A59B;
+    padding-bottom: 0%;
+    
+}
+.intro p{
+    padding:0%; 
+    margin:10px;
+    color:#000000;
+    font-size: 19px;
+    width: 90%;
+    height: 40%;
+} 
+.personal-info{
+    text-align: center;
+    /* padding-top: 15%; */
+    color: #000000;
+}
+.personal-info img{
+    width: 7%;
+    height: 7%;
+}
+.personal-info dt{
+    display: inline;
+    justify-content:space-evenly ;
+}
+.personal-info a{
+    /* text-decoration: none; */
+    color:#ffd7b3;
+}
+.bg{
+    background-image: url("../image/bg.png");
+    padding-left:60%;
+    padding-bottom: 10%;
+    background-position: 40%  15%;
+}
+.bg p{
+    justify-content: right;
+}
+.name{
+    padding-top: 50%;
+    color: #824623;
+    font-weight: bold;
+    font-size: 2em;
+}
+.major{
+    font-size:0.8em ;
+}

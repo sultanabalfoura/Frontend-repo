@@ -1,0 +1,21 @@
+@import "./varibles";
+@import "./mixin";
+
+header{
+    @include navdesign(); 
+}
+.containr{
+    margin: auto;
+    width: 90%;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        color: $fontcolor;
+        text-decoration: none;
+        padding:10px;
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

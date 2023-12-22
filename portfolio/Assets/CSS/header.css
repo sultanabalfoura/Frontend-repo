@@ -1,0 +1,26 @@
+header {
+  background-color: #B2A59B;
+  justify-content: center;
+  font-size: 30px;
+  color: #ffffff;
+  position: fixed;
+  padding-top: 5px;
+  width: 100%;
+  height: 10%;
+}
+
+.containr {
+  margin: auto;
+  width: 90%;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.containr a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}/*# sourceMappingURL=header.css.map */
