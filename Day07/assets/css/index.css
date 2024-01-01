@@ -1,0 +1,8 @@
+#booklist li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10;
+    flex-direction: row;
+    align-content: center;
+}

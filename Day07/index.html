@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Book System</title>
+</head>
+<body>
+    <div class="container text-center my-3 ">
+        <div class="font-monospace bg-black text-light pb-1 ">
+            <div class="py-4">
+                <h3>BOOK LIST</h3>
+            </div>
+            <div class="mb-4">
+                <input type="text" id="search" >
+                <label for="search"> search</label>
+            </div>
+        </div>
+        <div class="">
+            <h4>Book list to read</h4>
+            <ul id="booklist">
+                <li class="d-flex align-content-center justify-content-center px-5 my-4" id="lilist">
+                    <span class="mx-5">book 1</span>
+                    <span class="btn btn-dark" id="deletebtn"> delete </span>
+                    <!-- <span>Book 1</span>
+                    <span class="btn btn-dark "> Delete</span> -->
+                </li>
+                <li class="d-flex align-content-center justify-content-center px-5 my-4" id="lilist">
+                    <span class="mx-5">book 2</span>
+                    <span class="btn btn-dark" id="deletebtn"> delete </span>
+                    <!-- <span>Book 1</span>
+                    <span class="btn btn-dark "> Delete</span> -->
+                </li>
+            </ul>
+        </div>
+        <div class="add px-4">
+            <input type="text" id="bookname" class="px-4 w-25" placeholder="enter book title..">
+            <button class="btn btn-dark" id="addbtn"> ADD </button>
+            <button class="btn btn-dark" id="hide"> hide </button>
+        </div>
+    </div>
+    
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "name" : "sultana",
+    "age" : 25,
+    "location" : "alrustaq",
+    "obj" :{
+        "arr" : [ "obj1" , "obj2" , "obj3"]
+    }
+
+}
