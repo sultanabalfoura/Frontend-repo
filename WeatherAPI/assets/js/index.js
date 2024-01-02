@@ -4,7 +4,7 @@ const weatherbox = document.querySelector(".weather-box");
 const weatherDetails = document.querySelector(".weather-details");
 
 search.addEventListener('click' , ()=>{
-    const apiKey = '6a2232361ba727f490554b6f1dd9c431';
+    const apiKey = 'API - Key';
     const city = document.querySelector(".search-box input").value;
 
     if (city == '')
